@@ -20,16 +20,26 @@ public class Main {
 //            MegaBytesConverter.printMegaBytesAndKiloBytes(5000);
 
         /**
-         * main method here calling shouldWakeUp method to convert KB to MB and remaining kB.
+         * main method here calling shouldWakeUp method to determine if the dog should wake up or not.
          * Exercise 3
          */
-           BarkingDog.shouldWakeUp(true,1);
-           BarkingDog.shouldWakeUp(false,2);
-           BarkingDog.shouldWakeUp(true,8);
-           BarkingDog.shouldWakeUp(true,-1);
+//           BarkingDog.shouldWakeUp(true,1);
+//           BarkingDog.shouldWakeUp(false,2);
+//           BarkingDog.shouldWakeUp(true,8);
+//           BarkingDog.shouldWakeUp(true,-1);
+
+        /**
+         * main method here calling isLeapYear method to determine if the year is a leap year or not.
+         * Exercise 4
+         */
+           LeapYear.isLeapYear(-1600);
+           LeapYear.isLeapYear(1600);
+           LeapYear.isLeapYear(2017);
+           LeapYear.isLeapYear(2000);
+
+
+
 
     }
-
-
 
 }
