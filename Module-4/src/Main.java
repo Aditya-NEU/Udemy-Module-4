@@ -2,7 +2,8 @@ public class Main {
 
     public static void main(String[] args) {
         /**
-         * Main method here calling the printConversion method of SpeedConverter class to print the output values.
+         * main method here calling the printConversion method of SpeedConverter class to print the output values.
+         * Exercise 1
          */
 //        SpeedConverter.printConversion(1.5);
 //        SpeedConverter.printConversion(10.25);
@@ -10,14 +11,25 @@ public class Main {
 //        SpeedConverter.printConversion(25.42);
 //        SpeedConverter.printConversion(75.114);
         /**
-         * Main method here calling printMegaBytesAndKiloBytes method to convert KB to MB and remaining kB.
+         * main method here calling printMegaBytesAndKiloBytes method to convert KB to MB and remaining kB.
+         * Exercise 2
          */
 
-            MegaBytesConverter.printMegaBytesAndKiloBytes(2500);
-            MegaBytesConverter.printMegaBytesAndKiloBytes(-1024);
-            MegaBytesConverter.printMegaBytesAndKiloBytes(5000);
+//            MegaBytesConverter.printMegaBytesAndKiloBytes(2500);
+//            MegaBytesConverter.printMegaBytesAndKiloBytes(-1024);
+//            MegaBytesConverter.printMegaBytesAndKiloBytes(5000);
+
+        /**
+         * main method here calling shouldWakeUp method to convert KB to MB and remaining kB.
+         * Exercise 3
+         */
+           BarkingDog.shouldWakeUp(true,1);
+           BarkingDog.shouldWakeUp(false,2);
+           BarkingDog.shouldWakeUp(true,8);
+           BarkingDog.shouldWakeUp(true,-1);
 
     }
+
 
 
 }
