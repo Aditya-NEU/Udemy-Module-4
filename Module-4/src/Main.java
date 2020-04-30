@@ -55,10 +55,19 @@ public class Main {
          * Exercise 7
          */
 
-        TeenNumberChecker.hasTeen(9,99,19);
-        TeenNumberChecker.hasTeen(23,15,42);
-        TeenNumberChecker.hasTeen(22,23,34);
+//        TeenNumberChecker.hasTeen(9,99,19);
+//        TeenNumberChecker.hasTeen(23,15,42);
+//        TeenNumberChecker.hasTeen(22,23,34);
 
+        /**
+         * main method here calling area method to showcase method overloading in Java. Both methods have the same name one calculates
+         * area of circle and other calculates area of rectangle.
+         * Exercise 8
+         */
+        AreaCalculator.area(5);
+        AreaCalculator.area(-1);
+        AreaCalculator.area(5,4);
+        AreaCalculator.area(-1,4);
 
     }
 
