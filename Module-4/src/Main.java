@@ -32,10 +32,18 @@ public class Main {
          * main method here calling isLeapYear method to determine if the year is a leap year or not.
          * Exercise 4
          */
-           LeapYear.isLeapYear(-1600);
-           LeapYear.isLeapYear(1600);
-           LeapYear.isLeapYear(2017);
-           LeapYear.isLeapYear(2000);
+//           LeapYear.isLeapYear(-1600);
+//           LeapYear.isLeapYear(1600);
+//           LeapYear.isLeapYear(2017);
+//           LeapYear.isLeapYear(2000);
+        /**
+         * main method here calling areEqualByThreeDecimalPlaces method to determine if two numbers are equal upto three decimal digits
+         * Exercise 5
+         */
+        DecimalComparator.areEqualByThreeDecimalPlaces(-3.1756,-3.175);
+        DecimalComparator.areEqualByThreeDecimalPlaces(3.175,-3.176);
+        DecimalComparator.areEqualByThreeDecimalPlaces(3.0,3.0);
+        DecimalComparator.areEqualByThreeDecimalPlaces(-3.123,3.123);
 
 
 
