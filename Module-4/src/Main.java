@@ -40,12 +40,15 @@ public class Main {
          * main method here calling areEqualByThreeDecimalPlaces method to determine if two numbers are equal upto three decimal digits
          * Exercise 5
          */
-        DecimalComparator.areEqualByThreeDecimalPlaces(-3.1756,-3.175);
-        DecimalComparator.areEqualByThreeDecimalPlaces(3.175,-3.176);
-        DecimalComparator.areEqualByThreeDecimalPlaces(3.0,3.0);
-        DecimalComparator.areEqualByThreeDecimalPlaces(-3.123,3.123);
 
+        /**
+         * main method here calling hasEqualSum method to determine if the sum of first two digits is equal to the third one.
+         * Exercise 6
+         */
 
+        EqualSumChecker.hasEqualSum(1,1,1);
+        EqualSumChecker.hasEqualSum(1,1,2);
+        EqualSumChecker.hasEqualSum(1,-1,0);
 
 
     }
