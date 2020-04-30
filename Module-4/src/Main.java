@@ -46,9 +46,18 @@ public class Main {
          * Exercise 6
          */
 
-        EqualSumChecker.hasEqualSum(1,1,1);
-        EqualSumChecker.hasEqualSum(1,1,2);
-        EqualSumChecker.hasEqualSum(1,-1,0);
+//        EqualSumChecker.hasEqualSum(1,1,1);
+//        EqualSumChecker.hasEqualSum(1,1,2);
+//        EqualSumChecker.hasEqualSum(1,-1,0);
+
+        /**
+         * main method here calling hasEqualSum method to determine if any one of the three numbers is between 13 to 19.
+         * Exercise 7
+         */
+
+        TeenNumberChecker.hasTeen(9,99,19);
+        TeenNumberChecker.hasTeen(23,15,42);
+        TeenNumberChecker.hasTeen(22,23,34);
 
 
     }
