@@ -64,11 +64,22 @@ public class Main {
          * area of circle and other calculates area of rectangle.
          * Exercise 8
          */
-        AreaCalculator.area(5);
-        AreaCalculator.area(-1);
-        AreaCalculator.area(5,4);
-        AreaCalculator.area(-1,4);
+//        AreaCalculator.area(5);
+//        AreaCalculator.area(-1);
+//        AreaCalculator.area(5,4);
+//        AreaCalculator.area(-1,4);
+
+        /**
+         * main method here calling printYearsAndDays method to convert minutes into years and days.
+         * Exercise 9.
+         */
+
+        MinutesToYearsDaysCalculator.printYearsAndDays(525600);
+        MinutesToYearsDaysCalculator.printYearsAndDays(1051200);
+        MinutesToYearsDaysCalculator.printYearsAndDays(561600);
 
     }
+
+
 
 }
