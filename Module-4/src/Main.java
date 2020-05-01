@@ -83,11 +83,20 @@ public class Main {
          * Exercise 11.
          */
 
-        IntEqualityPrinter.printEqual(1,1,1);
-        IntEqualityPrinter.printEqual(1,1,2);
-        IntEqualityPrinter.printEqual(-1,-1,-1);
-        IntEqualityPrinter.printEqual(1,2,3);
+//        IntEqualityPrinter.printEqual(1,1,1);
+//        IntEqualityPrinter.printEqual(1,1,2);
+//        IntEqualityPrinter.printEqual(-1,-1,-1);
+//        IntEqualityPrinter.printEqual(1,2,3);
 
+        /**
+         * main method here calling isCatPlaying method to determine if cat should play outside or not.
+         * Exercise 12.
+         */
+
+
+//        PlayingCat.isCatPlaying(true,10);
+//        PlayingCat.isCatPlaying(false,36);
+//        PlayingCat.isCatPlaying(false,35);
 
     }
 
