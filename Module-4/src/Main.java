@@ -74,9 +74,20 @@ public class Main {
          * Exercise 9.
          */
 
-        MinutesToYearsDaysCalculator.printYearsAndDays(525600);
-        MinutesToYearsDaysCalculator.printYearsAndDays(1051200);
-        MinutesToYearsDaysCalculator.printYearsAndDays(561600);
+//        MinutesToYearsDaysCalculator.printYearsAndDays(525600);
+//        MinutesToYearsDaysCalculator.printYearsAndDays(1051200);
+//        MinutesToYearsDaysCalculator.printYearsAndDays(561600);
+
+        /**
+         * main method here calling printEqual method to compare three numbers.
+         * Exercise 11.
+         */
+
+        IntEqualityPrinter.printEqual(1,1,1);
+        IntEqualityPrinter.printEqual(1,1,2);
+        IntEqualityPrinter.printEqual(-1,-1,-1);
+        IntEqualityPrinter.printEqual(1,2,3);
+
 
     }
 
