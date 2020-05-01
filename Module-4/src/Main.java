@@ -80,7 +80,7 @@ public class Main {
 
         /**
          * main method here calling printEqual method to compare three numbers.
-         * Exercise 11.
+         * Exercise 10.
          */
 
 //        IntEqualityPrinter.printEqual(1,1,1);
@@ -90,7 +90,7 @@ public class Main {
 
         /**
          * main method here calling isCatPlaying method to determine if cat should play outside or not.
-         * Exercise 12.
+         * Exercise 11.
          */
 
 
