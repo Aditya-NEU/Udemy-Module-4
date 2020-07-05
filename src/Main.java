@@ -5,11 +5,13 @@ public class Main {
          * main method here calling the printConversion method of SpeedConverter class to print the output values.
          * Exercise 1
          */
+
 //        SpeedConverter.printConversion(1.5);
 //        SpeedConverter.printConversion(10.25);
 //        SpeedConverter.printConversion(-5.6);
 //        SpeedConverter.printConversion(25.42);
 //        SpeedConverter.printConversion(75.114);
+
         /**
          * main method here calling printMegaBytesAndKiloBytes method to convert KB to MB and remaining kB.
          * Exercise 2
@@ -18,6 +20,7 @@ public class Main {
 //            MegaBytesConverter.printMegaBytesAndKiloBytes(2500);
 //            MegaBytesConverter.printMegaBytesAndKiloBytes(-1024);
 //            MegaBytesConverter.printMegaBytesAndKiloBytes(5000);
+
 
         /**
          * main method here calling shouldWakeUp method to determine if the dog should wake up or not.
@@ -99,7 +102,6 @@ public class Main {
 //        PlayingCat.isCatPlaying(false,35);
 
     }
-
 
 
 }
